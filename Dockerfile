@@ -13,7 +13,7 @@ COPY . /home/las/
 WORKDIR /home/las/exam
 RUN rm -f *moc
 RUN rm -f Makefile
-RUN qmake exam.pro
+RUN qmake examen.pro
 RUN make
 RUN make install
-CMD ["./exam"]
+CMD ["./examen"]
